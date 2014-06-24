@@ -1,0 +1,22 @@
+{
+  "name": "jquery-maxlength",
+  "main": "jquery-maxlength.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/corydorning/jquery-maxlength",
+  "authors": [
+    "Cory Dorning <cory@dorning.me>"
+  ],
+  "description": "The jQuery maxlength plugin allows you to use the maxlength attribute on textarea elements in browsers that do not support it.",
+  "keywords": [
+    "jquery",
+    "maxlength"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
