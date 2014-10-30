@@ -44,7 +44,7 @@
         if (/^[0-9]+$/.test(curr.getAttribute('maxLength'))) {
 
           // enforce maxlength on keyup and blur
-          $curr.on('keyup blur', document, function() {
+          $curr.on('keyup', document, function() {
             var el = this,
                 maxlength = parseInt(el.getAttribute('maxlength'), 10);
 
